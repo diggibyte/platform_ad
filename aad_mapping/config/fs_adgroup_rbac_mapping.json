@@ -1,0 +1,21 @@
+{
+  "default": [
+    {
+      "user_group": "DGB-AAD-FS-READER-DEV",
+      "resource": "DGB-RG-FS-DEV-001",
+      "roles": ["Reader"]
+    },
+    {
+      "user_group": "DGB-AAD-FS-ADMIN-DEV",
+      "resource": "DGB-RG-FS-DEV-001",
+      "roles": ["Owner", "Key Vault Administrator"]
+    }
+  ],
+  "custom": [
+    {
+      "user_group": "DGB-AAD-FS-READER-DEV",
+      "resource": "DGB-RG-FS-DEV-001",
+      "role_definition_name": "DGB-RG-FS-DEV-001-BLOB-CONTRIBUTOR"
+    }
+  ]
+}

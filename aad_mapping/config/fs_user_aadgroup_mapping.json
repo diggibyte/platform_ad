@@ -1,0 +1,18 @@
+{
+  "dev": [
+    {
+      "aad_group_name": "DGB-AAD-FS-READER-DEV",
+      "user_list": [
+        "mats.henry@myorg.com"
+      ]
+    },
+    {
+      "aad_group_name": "DGB-AAD-FS-ADMIN-DEV",
+      "user_list": [
+        "emily@myorg.com"
+      ]
+    }
+  ],
+  "test": [],
+  "prod": []
+}

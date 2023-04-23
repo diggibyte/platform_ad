@@ -1,0 +1,21 @@
+{
+  "default": [
+    {
+      "user_group": "DGB-AAD-DL-ADMIN-DEV",
+      "resource": "DGB-RG-DL-DEV-001",
+      "roles": ["Owner"]
+    },
+    {
+      "user_group": "DGB-AAD-DL-READER-DEV",
+      "resource": "DGB-RG-DL-DEV-001",
+      "roles": ["Reader"]
+    }
+  ],
+  "custom": [
+    {
+      "user_group": "DGB-AAD-DL-READER-DEV",
+      "resource": "DGB-RG-DL-DEV-001",
+      "role_definition_name": "DGB-RG-DL-DEV-001-BLOB-CONTRIBUTOR"
+    }
+  ]
+}

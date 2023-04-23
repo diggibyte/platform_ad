@@ -1,0 +1,17 @@
+[
+  {
+    "definition_name": "DGB-RG-DL-DEV-001-BLOB-CONTRIBUTOR",
+    "description": "This role will allow user to blob level contributor access",
+    "scope": "DGB-RG-DL-DEV-001",
+    "actions": [],
+    "notActions": [],
+    "dataActions": [
+      "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/delete",
+      "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/read",
+      "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/write",
+      "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/move/action",
+      "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/add/action"
+    ],
+    "notDataActions": []
+  }
+]

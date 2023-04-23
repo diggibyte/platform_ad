@@ -1,0 +1,19 @@
+{
+  "dev": [
+    {
+      "aad_group_name": "DGB-AAD-DL-ADMIN-DEV",
+      "user_list": [
+        "mats@myorg.com"
+      ]
+    },
+    {
+      "aad_group_name": "DGB-AAD-DL-READER-DEV",
+      "user_list": [
+        "john@myorg.com",
+        "jemmy@myorg.com"
+      ]
+    }
+  ],
+  "test": [],
+  "prod": []
+}
