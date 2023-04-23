@@ -23,11 +23,11 @@ Kindly follow list of activity mentioned below to configure your system to run t
 1.	Install Terraform: [link](https://developer.hashicorp.com/terraform/downloads)
 2.	Clone git repository using below command:
 ```
-git clone https://diggibyte@dev.azure.com/diggibyte/diggibyte-platform/_git/platform_ad_dev
+git clone https://github.com/diggibyte/platform_ad.git
 ```
 3.  Add platform_tfmodules repository as git submodule
 ```
-git submodule add -b master https://diggibyte@dev.azure.com/diggibyte/diggibyte-platform/_git/platform_tfmodules
+git submodule add -b master https://github.com/diggibyte/platform_tfmodules.git
 git submodule init
 ```
 4.	_[Optional]:_ if step 3 is throwing authentication error then kindly follow below step:
@@ -36,7 +36,7 @@ git submodule init
 - Run below command:
 ```commandline
 git config --global url."https://oauth2:<ACCESS_TOKEN>".insteadOf "git@github.com:"
-git submodule add -b master https://diggibyte@dev.azure.com/diggibyte/diggibyte-platform/_git/platform_tfmodules
+git submodule add -b master https://github.com/diggibyte/platform_tfmodules.git
 git submodule init
 ```
 
